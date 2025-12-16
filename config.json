@@ -1,0 +1,5 @@
+{
+	"endpoint": "https://script.google.com/macros/s/AKfycbxNnE5qpx2cQ2Peynqww3WWahZgp9A-NGFcGuD5Wb-ZzSPbaLy7-DqR96mlwdQQT61M/exec",
+	"successSound": "tacobell.wav",
+	"errorSound": "whatthesigma.wav"
+}
