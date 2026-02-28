@@ -142,8 +142,8 @@ const app = {
         this.form.userID = '';
         this.getUsersData();
         this.enableUserField();
-      } else if (this.form.userID === '+404') {
-        // if user types +404 find all checked in users and check them all out
+      } else if (this.form.userID === '+007') {
+        // if user types +007 find all checked in users and check them all out
         this.mode.operation = 'unCheckIn';
         const loggedInUserIds = this.usersData
           .filter((user) => user['Checked In'] === true)
