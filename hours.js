@@ -43,7 +43,7 @@ async function userAction(userID, operation) {
     return { userID, operation, status: data.status, message: data.message };
   } catch (error) {
     console.error('Error in userAction:', error);
-    return { userID, operation, status: 'error', message: 'Network failure' };
+    return { userID, operation, status: 'error', message: `Network failure: ${error.message}` };
   }
 }
 
